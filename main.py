@@ -126,7 +126,7 @@ Q15_2 = colorA.index("파란색") if "파란색" in colorA else False
 Q15 = (Q15_1 and Q15_2) and (Q15_1 == Q15_2-1 or Q15_1 == Q15_2+1)
 
 with col01:
-    st.markdown("* **자동으로 체크** 됩니다. :a 오류는 확인 못해줍니다.")
+    st.markdown("* **자동으로 체크** 됩니다. :a")
     st.checkbox("* 1. 영국 사람은 빨간색 집에 산다.", value=Q1, key=1)
     st.checkbox("* 2. 덴마크 사람은 차를 마신다.", value=Q2, key=2)
     st.checkbox("* 3. 초록색 집에 사는 사람은 커피를 마신다.", value=Q3, key=3)
